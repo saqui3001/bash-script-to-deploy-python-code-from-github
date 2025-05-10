@@ -13,10 +13,10 @@ echo "Go to The-Hub Directory"
 
 # --- Configuration ---
 target_dir="root/folder/of/the/python/application"
-repo_url="https://github.com/[repository/url]"
-username="[githubusername]"
-access_token="[github-access-token]"
-remote_url="https://${username}:${access_token}@github.com/[repository/url]"
+repo_url="https://github.com/repository/url"  # change to your own github url
+username="[githubusername]"    # change to your own username
+access_token="[github-access-token]"      # change to your own github access token
+remote_url="https://${username}:${access_token}@github.com/repository/url"      # after @ sign change to your own github url
 # --- End Configuration ---
 
 # Function to handle errors and exit

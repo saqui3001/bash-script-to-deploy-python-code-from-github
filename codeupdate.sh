@@ -9,7 +9,6 @@ set -x    # to turn on debug mode, to show command before output
 set -e  #exit the script when there is an error, but it doesn't work if there is a pipe
 set -o pipefail  # that is why this command is used too
 echo "Go to The-Hub Directory"
-#!/bin/bash
 
 # --- Configuration ---
 target_dir="root/folder/of/the/python/application"

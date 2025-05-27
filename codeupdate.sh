@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ######################
 # Author: Saqui
 # Date: 5th-May
@@ -37,7 +37,9 @@ if [ -d "$target_dir" ]; then
     echo "Successfully pulled the latest code."
     echo "************************************"
     echo "Running Migration..."
+    source /absolute/path/to/virtual/environment/activate
     python manage.py migrate
+    deactivate
     echo "Migration Successful"
     echo "********************"
     echo "Restarting nginx and Gunicorn"
